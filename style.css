@@ -1,0 +1,46 @@
+body {
+    background-image: url(././curriculum/img/28.jpg);
+}
+header {
+    background-color: rgba(235, 236, 221, 0.600);
+    text-align: center;
+    font-size: 28px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+header {
+    font-family: hwt-mardell, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+h2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h2 {font-family: hwt-mardell, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+section {
+    background-color: rgba(235, 236, 221, 0.600);
+    
+}
+
+.lista {font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: black;
+
+    font-size: 20px;
+}
