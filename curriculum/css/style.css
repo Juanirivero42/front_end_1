@@ -1,18 +1,66 @@
-#header h1{font-weight: bolder;
+@import url("https://use.typekit.net/wga3zeq.css");
+
+
+
+h1{font-weight: bolder;
     color: rgb(0, 0, 0,);
+    background: rgba(247, 241, 241, 0.726);
     text-align: center;
-    background-color: rgba(0, 0, 255, 0.144);
-    font-size: 30px;
+    font-size: 32px;
     text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-size: contain;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    letter-spacing: 5px;
 }
 
-body .section{
-    background-color: rgba(0, 0, 255, 0.144);
+h2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(../img/0.jpg);
+    height: 200px;
+    background-size: contain;
+    text-align: center;
     
 }
+
+
 body h2{
     text-transform: uppercase;
+    background: rgba(247, 241, 241, 0.726);
 }
+
+section#datospersonales span{
+    font-weight: bold;
+}
+
+section#formación dt {
+    font-weight: bold;
+}
+
+section#formación dd+dd{
+    font-style: italic;
+}
+
+
+section#experiencia dt {
+    font-weight: bold;
+}
+
+.fechas {
+        font-style: italic;
+    }
+
+
 
 .footer{
     text-align: center;
