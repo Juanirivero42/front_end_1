@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/* header */
+.parte1header{
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.parte1header > div{
+    margin-left: 50px;
+}
+
+div.parte1header ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    
+}
+
+header > nav {
+    background-color: #F0A83E;
+    height: 62px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > nav li {
+    list-style: none;
+    margin-left: 30px;
+    
+}
+
+header nav > div {
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    color: blanchedalmond;
+    list-style: none;
+}
+
+header nav > div li a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+/* main */
+/* seccion banner */
+section.banner {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+section.banner div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+section.banner div h2 {
+    font-size: 30px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+section.banner div a {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size: 16px;
+    width: 141px;
+    height: 50px;
+}
+
+/* section productos destacados */
+main section.sectionproducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+main section.sectionproducts > img {
+    width: 67px;
+    height: 71px;
+    margin-top: 15px;
+}
+
+main section.sectionproducts h1 {
+    font-size: 40px;
+    margin-top: -5px ;
+}
+
+main section.sectionproducts ul{
+    display: flex;
+    gap: 50px;
+}
+
+main section.sectionproducts ul * {
+    text-decoration: none;
+    color: black;
+}
+
+main section.sectionproducts > div {
+    display: flex;
+    gap: 60px;
+    
+}
+
+main section.sectionproducts article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFAF6;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+main section.sectionproducts article a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color:#3C2313;   
+}
+main section.sectionproducts article span {
+    color:#F0A83E;
+
+}
+
+/* section contacto */
+main section.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+section.contacto > h2{
+    font-size:  25px;
+    color: #3C2313;
+    margin-top: 50px;;
+}
+
+main section.contacto ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    margin-top: 30px;
+    
+}
+main section.contacto ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #3C2313;
+    color:blanchedalmond;
+    width: 340px;
+    height: 41px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+main section.contacto div {
+    display: flex;
+    gap: 10px;
+    margin-top: 45px;
+}
+
+section.contacto div p.botonreset {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #8A8787;
+width: 110px;
+height: 34px;
+border-radius: 15px;
+font-size: 16px;
+color: antiquewhite;
+
+}
+
+section.contacto div p.botonenviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0A83E;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: antiquewhite;
+    }
+
+    /* section newslatter */
+    
+    section.newslatter {
+        background-color: #F0A83E;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        margin-top: 50px; 
+    }
+    
+    section.newslatter img{
+        width: 40px;
+        height: 20px;
+    }
+
+    section.newslatter div.primerdiv {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    section.newslatter div.primerdiv h2 {
+        color: #FFFFFF;
+    }
+
+    section.newslatter div.segundodiv{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 10px;
+        margin-right: 50px;
+    }
+
+    section.newslatter div.segundodiv p.correo {
+        display: flex;
+        align-items: center;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        width: 271px;
+        height: 40px;
+        size: 0px;
+        color: #A0A0A0;
+        padding-left: 10px;
+
+    }
+
+    section.newslatter div.segundodiv p + p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #3C2313;
+        width: 80px;
+        height: 38px;
+        border-radius: 15px;
+        color:#FFFFFF;
+        font-size: 11px;
+    }
+
+ /* footer */
+    footer{
+        display: flex;
+        background-color: #3C2313;
+        position:relative;
+        gap: 30px;
+    }
+
+
+    footer div.iconos {
+        display: flex;
+        flex-direction:column;
+        gap: 30px;
+        padding: 20px 0px 0px 20px;
+    }
+
+    footer div.datos{
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        color: #FFFFFF;
+        padding: 20px 0px 0px;
+    }
+
+    footer div.datos div.localidad{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer div.datos div.telefono{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer div.datos div.correo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer div.datos span{
+        color: #8A8787;
+    }
+
+    footer > img{
+        position: absolute;
+        left: 1200px;
+        top: 120px;
+        width: 166px;
+        height: 23px;
+        
+    }
+
+
+    footer div.derechos {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background-color: #222222;
+        color: white;
+        text-align: center;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
