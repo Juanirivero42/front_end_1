@@ -4,6 +4,30 @@ body *{
     box-sizing: border-box;
 }
 
+main div.contenedorboton {
+    align-items: center;
+    background-color: #00669F;
+    border-radius: 100%;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    width: 50px;
+    z-index: 2;
+    
+   
+}
+
+
+main img.mas {
+    height: 20px;
+    width: 20px;
+    
+}
+
+/*header*/
 header {
     position: sticky; 
     top: 0px;
@@ -11,7 +35,7 @@ header {
 }
 
 nav {
-    background-color: #1CD1B0;
+    background-color: #D1891C;
     height: 30px;
     font-size: 15px;
     font-weight: 400;
@@ -26,32 +50,58 @@ h1 {
 
 }
 
-article {
-    display: inline-block;
+
+.contarticle1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contarticle2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+article{
+    display: flex;
     position: relative;
     width: 300px;
     height: 529px;
-    margin: 60px;
+    margin: 60px 40px 10px;
     background-color: #F3F3F3;
     border-radius: 5%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
     
 }
 
-article .cardbckgr {
-    z-index:0
+article img.cardbckgr{
+    z-index:0;
+    width: 300px;
+    height: 193px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
-article .cardimg {
+
+
+article img.cardimg{
     position: absolute;
     top: 125px;
     left: 90px;
     z-index: 1;
     border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    
     
 }
 
-article .corazon {
+article img.corazon{
     position: absolute;
     display: inline-block;
     right: 250px;
@@ -76,12 +126,47 @@ article > div{
     text-align: center;
 }
 
+/*footer*/
 footer {
-    height: 50px;
+    align-items: center;
     background-color: #00669F;
     color: #FFF9F9;
+    display: flex;
     font-weight: lighter;
-    font-size: 16px;
-    text-align: center;
-    padding: 1% 0%;
+    font-size: 1rem;
+    height: 70px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    position: relative;
+    flex-wrap: wrap;
 }
+
+footer p {
+    display: flex;
+    margin-right: 200px;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+
+footer img {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    right: 0%;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+@media screen and (max-width: 830px) { 
+    
+
+
+
+
+
+
